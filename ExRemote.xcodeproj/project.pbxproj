@@ -15,6 +15,7 @@
 		92504A131CBDEEBE007218C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92504A111CBDEEBE007218C2 /* LaunchScreen.storyboard */; };
 		92504A1E1CBDEEBE007218C2 /* ExRemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92504A1D1CBDEEBE007218C2 /* ExRemoteTests.swift */; };
 		92504A291CBDEEBE007218C2 /* ExRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92504A281CBDEEBE007218C2 /* ExRemoteUITests.swift */; };
+		A230DD661CDC3BB90041FBDE /* ExBLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230DD651CDC3BB90041FBDE /* ExBLE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		92504A241CBDEEBE007218C2 /* ExRemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExRemoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92504A281CBDEEBE007218C2 /* ExRemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExRemoteUITests.swift; sourceTree = "<group>"; };
 		92504A2A1CBDEEBE007218C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A230DD651CDC3BB90041FBDE /* ExBLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExBLE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				92504A051CBDEEBE007218C2 /* AppDelegate.swift */,
 				92504A071CBDEEBE007218C2 /* ViewController.swift */,
+				A230DD651CDC3BB90041FBDE /* ExBLE.swift */,
 				92504A091CBDEEBE007218C2 /* Main.storyboard */,
 				92504A0F1CBDEEBE007218C2 /* Assets.xcassets */,
 				92504A111CBDEEBE007218C2 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				92504A081CBDEEBE007218C2 /* ViewController.swift in Sources */,
 				92504A0E1CBDEEBE007218C2 /* ExRemote.xcdatamodeld in Sources */,
+				A230DD661CDC3BB90041FBDE /* ExBLE.swift in Sources */,
 				92504A061CBDEEBE007218C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				92504A2F1CBDEEBE007218C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92504A301CBDEEBE007218C2 /* Build configuration list for PBXNativeTarget "ExRemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				92504A321CBDEEBE007218C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92504A331CBDEEBE007218C2 /* Build configuration list for PBXNativeTarget "ExRemoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				92504A351CBDEEBE007218C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
