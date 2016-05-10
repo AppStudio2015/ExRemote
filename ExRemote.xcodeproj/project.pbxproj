@@ -17,6 +17,7 @@
 		92504A291CBDEEBE007218C2 /* ExRemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92504A281CBDEEBE007218C2 /* ExRemoteUITests.swift */; };
 		A230DD691CDC3CEE0041FBDE /* EXBLECentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230DD671CDC3CED0041FBDE /* EXBLECentralManager.swift */; };
 		A230DD6A1CDC3CEE0041FBDE /* EXBLEPeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230DD681CDC3CEE0041FBDE /* EXBLEPeripheralManager.swift */; };
+		F6C626641CE1B63A0035F425 /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C626631CE1B63A0035F425 /* RemoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		92504A2A1CBDEEBE007218C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A230DD671CDC3CED0041FBDE /* EXBLECentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBLECentralManager.swift; sourceTree = "<group>"; };
 		A230DD681CDC3CEE0041FBDE /* EXBLEPeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXBLEPeripheralManager.swift; sourceTree = "<group>"; };
+		F6C626631CE1B63A0035F425 /* RemoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				92504A071CBDEEBE007218C2 /* ViewController.swift */,
 				A230DD671CDC3CED0041FBDE /* EXBLECentralManager.swift */,
 				A230DD681CDC3CEE0041FBDE /* EXBLEPeripheralManager.swift */,
+				F6C626631CE1B63A0035F425 /* RemoteView.swift */,
 				92504A091CBDEEBE007218C2 /* Main.storyboard */,
 				92504A0F1CBDEEBE007218C2 /* Assets.xcassets */,
 				92504A111CBDEEBE007218C2 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C626641CE1B63A0035F425 /* RemoteView.swift in Sources */,
 				A230DD6A1CDC3CEE0041FBDE /* EXBLEPeripheralManager.swift in Sources */,
 				A230DD691CDC3CEE0041FBDE /* EXBLECentralManager.swift in Sources */,
 				92504A081CBDEEBE007218C2 /* ViewController.swift in Sources */,
