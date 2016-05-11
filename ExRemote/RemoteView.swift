@@ -43,12 +43,11 @@ class RemoteView: UIView {
         
         upButton.translatesAutoresizingMaskIntoConstraints = false
         let upButtonContrainLeading: NSLayoutConstraint = NSLayoutConstraint.init(item: upButton, attribute: .CenterX, relatedBy: .Equal, toItem: self, attribute: .CenterX, multiplier: 1.0, constant: 0.0)
-        let upButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: upButton, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1.0, constant: 80.0)
+        let upButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: upButton, attribute: .Top, relatedBy: .Equal, toItem: self, attribute: .Top, multiplier: 1.0, constant: 30.0)
         let upButtonContrainHeight: NSLayoutConstraint = NSLayoutConstraint.init(item: upButton, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 50.0)
         let upButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: upButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 150.0)
         let upButtonContrains: NSArray = [upButtonContrainTop, upButtonContrainWidth, upButtonContrainHeight, upButtonContrainLeading]
         self.addConstraints(upButtonContrains as! [NSLayoutConstraint])
-//        upButton.backgroundColor = UIColor.lightGrayColor()
         upButton.setImage(UIImage(named: "UP"), forState: .Normal)
         upButton.tag = 1001
         
@@ -71,7 +70,6 @@ class RemoteView: UIView {
         let downButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: downButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 150.0)
         let downButtonContrains: NSArray = [downButtonContrainTop, downButtonContrainWidth, downButtonContrainHeight, downButtonContrainLeading]
         self.addConstraints(downButtonContrains as! [NSLayoutConstraint])
-//        downButton.backgroundColor = UIColor.lightGrayColor()
         downButton.setImage(UIImage(named: "Down"), forState: .Normal)
         downButton.tag = 1003
         
@@ -82,7 +80,6 @@ class RemoteView: UIView {
         let leftButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: leftButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 50.0)
         let leftButtonContrains: NSArray = [leftButtonContrainTop, leftButtonContrainWidth, leftButtonContrainHeight, leftButtonContrainLeading]
         self.addConstraints(leftButtonContrains as! [NSLayoutConstraint])
-//        leftButton.backgroundColor = UIColor.lightGrayColor()
         leftButton.setImage(UIImage(named: "Left"), forState: .Normal)
         leftButton.tag = 1004
         
@@ -93,13 +90,12 @@ class RemoteView: UIView {
         let rightButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: rightButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 50.0)
         let rightButtonContrains: NSArray = [rightButtonContrainTop, rightButtonContrainWidth, rightButtonContrainHeight, rightButtonContrainLeading]
         self.addConstraints(rightButtonContrains as! [NSLayoutConstraint])
-//        rightButton.backgroundColor = UIColor.lightGrayColor()
         rightButton.setImage(UIImage(named: "Right"), forState: .Normal)
         rightButton.tag = 1005
         
         loudButton.translatesAutoresizingMaskIntoConstraints = false
         let loudButtonContrainLeading: NSLayoutConstraint = NSLayoutConstraint.init(item: loudButton, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .CenterX, multiplier: 1.0, constant: -2.0)
-        let loudButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: loudButton, attribute: .Top, relatedBy: .Equal, toItem: downButton, attribute: .Bottom, multiplier: 1.0, constant: 100.0)
+        let loudButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: loudButton, attribute: .Top, relatedBy: .Equal, toItem: downButton, attribute: .Bottom, multiplier: 1.0, constant: 50.0)
         let loudButtonContrainHeight: NSLayoutConstraint = NSLayoutConstraint.init(item: loudButton, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 46.0)
         let loudButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: loudButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 83.0)
         let loudButtonContrains: NSArray = [loudButtonContrainTop, loudButtonContrainWidth, loudButtonContrainHeight, loudButtonContrainLeading]
@@ -119,7 +115,7 @@ class RemoteView: UIView {
         
         menuButton.translatesAutoresizingMaskIntoConstraints = false
         let menuButtonContrainLeading: NSLayoutConstraint = NSLayoutConstraint.init(item: menuButton, attribute: .CenterX, relatedBy: .Equal, toItem: self, attribute: .CenterX, multiplier: 1.0, constant: 0.0)
-        let menuButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: menuButton, attribute: .Top, relatedBy: .Equal, toItem: loudButton, attribute: .Bottom, multiplier: 1.0, constant: 100.0)
+        let menuButtonContrainTop: NSLayoutConstraint = NSLayoutConstraint.init(item: menuButton, attribute: .Top, relatedBy: .Equal, toItem: loudButton, attribute: .Bottom, multiplier: 1.0, constant: 50.0)
         let menuButtonContrainHeight: NSLayoutConstraint = NSLayoutConstraint.init(item: menuButton, attribute: .Height, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 58.0)
         let menuButtonContrainWidth: NSLayoutConstraint = NSLayoutConstraint.init(item: menuButton, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1.0, constant: 58.0)
         let menuButtonContrains: NSArray = [menuButtonContrainTop, menuButtonContrainWidth, menuButtonContrainHeight, menuButtonContrainLeading]
